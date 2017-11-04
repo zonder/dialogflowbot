@@ -1,0 +1,20 @@
+{
+  "name": "dialogflowbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "firebase serve --only functions:dialogflowbotactions",
+    "deploy": "firebase deploy --only functions:dialogflowbotactions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zonder/dialogflowbot.git"
+  },
+  "dependencies": {
+    "actions-on-google": "^1.0.0",
+    "apiai": "^4.0.3",
+    "firebase-admin": "^4.2.1",
+    "firebase-functions": "^0.5.9"
+  }
+}

@@ -1,0 +1,1 @@
+https://firebase.google.com/docs/functions/get-started#set_up_and_initialize_functions_sdk
